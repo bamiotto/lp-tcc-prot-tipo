@@ -1,0 +1,209 @@
+/*menu hamburguer*/
+@media only screen and (max-width: 768px) {
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+h3{
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 40px;
+  margin: 10% 10% 0 10%
+}
+
+
+label .menu {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #1a237e;
+  border-radius: 50% 50% 50% 50%;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #1a237e, 0 0 0 0 #1a237e;
+  cursor: pointer;
+}
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transition: .5s ease-in-out;
+}
+label .hamburger:after, label .hamburger:before {
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+label .hamburger:before {
+  top: -10px;
+}
+label .hamburger:after {
+  bottom: -10px;
+}
+label input {
+  display: none;
+}
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw #1a237e, 0 0 0 100vh #1a237e;
+  border-radius: 0;
+}
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  bottom: 0;
+}
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 0;
+}
+label input:checked + .menu + ul {
+  opacity: 1;
+}
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .25s 0s ease-in-out;
+}
+label a {
+ margin-bottom: 1em;
+  font-size: 5em;
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  overflow: none;
+}
+
+.btn-white{
+height: auto;
+}
+
+.banner h2 {
+    font-size: 56px;
+    margin: 2% 2%;
+    padding: 0
+
+}
+.banner{
+  padding: 20% 0;
+  }
+
+.atributo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.atributo-item{
+  width: 80%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.atributo-item h3{
+  text-align: center;
+}
+
+.atributo-item p{
+  text-align: center;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+#top-menu{
+	height:60px;
+	width:100%;
+	position: absolute;
+	background-color: transparent;
+	margin-top: 10px;
+	display: flex;;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+[type="checkbox"]{
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute
+	left: -9999px; 
+}
+
+ul{
+	display: inline-flex;
+	margin: auto;
+	margin-top: 10px;
+	display: flex;;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+ul li{
+	padding: 10px 10px 10px 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
+
+ul li a:active{
+	color: #ff8a65;
+}
+
+
+
+
+
+}
+
+
