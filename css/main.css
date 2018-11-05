@@ -221,7 +221,6 @@ ul#top-menu .active{
 
 
 .hero-image{
-	background-image: url("../img/9-3.png");
 	height: auto;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -887,4 +886,17 @@ margin-top: 56px;
 .spacer{
 	height: 100px;
 	width: 100%;
+}
+
+/*imagens do banner*/
+
+.pesquisa{
+	background-image: url(../img/6.png);
+	background-size: cover;
+
+}
+
+.introducao{
+background-image: url(../img/tiles.png);
+	background-size: cover;
 }
