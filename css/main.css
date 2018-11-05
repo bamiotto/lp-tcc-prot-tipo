@@ -71,6 +71,22 @@ p{
 	text-decoration: none;
 }
 
+.btn-blue{
+	background-color: #1a237e;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.46);
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 8px 60px;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	margin-top: 2%;
+	text-decoration: none;
+}
+
 #top-menu{
 	height:60px;
 	width:100%;
@@ -721,7 +737,7 @@ margin-top: 56px;
 }
 
 #grid{
-	margin: 10% 10%;
+	margin: 1% 10%;
 }
 
 .grid-chapter{
@@ -812,7 +828,7 @@ margin-top: 56px;
 }
 
 .blue-white{
- 	background-image: url('../img/c.png');
+ 	background-image: url('https://cdnm.westwing.com.br/glossary/uploads/br/2015/07/1269975111.jpg');
  	background-position: cover;
  	background-attachment: fixed;
  	position: bottom center;
@@ -858,4 +874,9 @@ margin-top: 56px;
 	margin-left: 50%;
 	margin-top: 1%;
 	margin-bottom: 5%;
+}
+
+.spacer{
+	height: 100px;
+	width: 100%;
 }
