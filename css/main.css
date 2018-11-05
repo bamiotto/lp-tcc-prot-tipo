@@ -187,10 +187,18 @@ ul#top-menu .active{
 
 }
 
-.atributo-a{
-	background-image: url(../img/atributo-a.png);
+.wall{
+	background-image: url(../img/wall.png);
 	background-size: cover;
-	/* background-position: top left; */
+	background-position: top;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+}
+
+.atributo-a{
+	background-image: url(../img/predio.png);
+	background-size: contain;
+	background-position: bottom left;
 	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
 }
@@ -828,9 +836,9 @@ margin-top: 56px;
 }
 
 .blue-white{
- 	background-image: url('https://cdnm.westwing.com.br/glossary/uploads/br/2015/07/1269975111.jpg');
+ 	background-image: url('../img/tiles.png');
  	background-position: cover;
- 	background-attachment: fixed;
+ 	/*background-attachment: fixed;*/
  	position: bottom center;
  	background-color: #fff;
  	height: 320px;
