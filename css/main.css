@@ -789,11 +789,11 @@ margin-top: 56px;
 	transition: 0.3s;
 }
 
-.grid-chapter li img:hover{
-	background-color: #ff8a65;
-	background-position: fixed;
+.grid-chapter img:hover{
 	transition: 0.3s;
-
+	z-index: 9999999;
+	opacity: 0.5;
+	fill: #1a237e;
 }
 
 .nomargin{
@@ -906,12 +906,6 @@ margin-top: 56px;
 
 /*imagens do banner*/
 
-.pesquisa{
-	background-image: url(../img/6.png);
-	background-size: cover;
-
-}
-
 .introducao{
 background-image: url(../img/tiles.png);
 	background-size: cover;
@@ -926,5 +920,29 @@ background-image: url(../img/atributo-b.png);
 	background-image: url(../img/wall.png);
 	background-size: cover;
 }
+
+.pesquisa{
+	background-color: #1a237e;
 }
 
+.contemporaneos{
+	background-image: url(../img/photo-1511352015382-902404d75843.jpeg);
+	background-size: cover;
+	background-position: bottom;
+}
+.inovacao{
+	background-image: url(../img/cadeira.png);
+	background-size: cover;
+}
+
+.confianca{
+	background-image: url(../img/affection-bike-child-1128318.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.espaco-tempo{
+	background-image: url(../img/black-and-white-clean-cleaning-4414.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
