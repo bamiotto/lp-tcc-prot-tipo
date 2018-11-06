@@ -77,6 +77,7 @@ p{
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.46);
 	color: #fff;
 	font-size: 16px;
+	font-weight: 200;
 	text-transform: uppercase;
 	padding: 8px 60px;
 	align-items: center;
@@ -85,6 +86,7 @@ p{
 	height: auto;
 	margin-top: 2%;
 	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 #top-menu{
@@ -151,6 +153,17 @@ ul#top-menu .active{
 	justify-content: center;
 	align-items: center;
 }
+
+.title-orange{
+	height: auto;
+	min-height: 640px;
+	background-color: #ff8a65;
+	display: flex;;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .content-blue h1{
 	background-color: transparent;
@@ -276,14 +289,14 @@ ul#top-menu .active{
 	max-height: 50%;
 	width: auto;
 }
-
 .destaque{
 	background-color: #ff8a65;
-    display: inline-flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    height: auto;
+	display: inline-flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	height: -webkit-fill-available;
+	max-height: 1000px;
 }
 
 .destaque-item{
@@ -294,7 +307,7 @@ ul#top-menu .active{
 	justify-content:center;
 	align-items: center;
 	width: 40%;
-	position: center;
+	height: -webkit-fill-available;
 }
 
 .destaque-item p{
@@ -305,6 +318,7 @@ ul#top-menu .active{
 	background-image: url('../img/E.png');
 	background-position: left;
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: -webkit-fill-available;
 	display: flex;
 	flex-direction: row;
@@ -312,7 +326,9 @@ ul#top-menu .active{
 	justify-content: center;
 	width: 50%;
 	padding:50px;
+	max-height 800px;
 }
+
 
 
 .banner h2{
@@ -835,18 +851,18 @@ margin-top: 56px;
 }
 
 .blue-white{
- 	background-image: url('../img/tiles.png');
- 	background-position: cover;
- 	/*background-attachment: fixed;*/
- 	position: bottom center;
- 	background-color: #fff;
- 	height: 320px;
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-	align-items: center;
-	margin: 0;
-	padding: 0;
+ 	/*background-image: url('../img/Artboard-trans.png');
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	position: bottom center;*/
+ 	background-color: #ff8a65;
+ 	height: auto;
+ 	display: flex;
+ 	flex-direction:column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin: 0;
+ 	padding: 0;
 }
 .cadeira{
 	background-image:url('../img/cadeira.png');

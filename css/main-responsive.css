@@ -148,6 +148,26 @@ height: auto;
   text-align: center;
 }
 
+.destaque{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  max-height: 1200px;
+}
+
+.destaque-item{
+ width: 80%;
+}
+
+.destaque-right{
+  max-width: 20%;
+}
+
+.thumb{
+  /* width: -webkit-fill-available; */
+  height: -webkit-fill-available;
+  max-width: 100%;
+}
 }
 
 
