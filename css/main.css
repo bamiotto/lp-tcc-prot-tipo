@@ -900,3 +900,15 @@ margin-top: 56px;
 background-image: url(../img/tiles.png);
 	background-size: cover;
 }
+
+.humana{
+background-image: url(../img/atributo-b.png);
+	background-size: cover;
+}
+
+.wall{
+	background-image: url(../img/wall.png);
+	background-size: cover;
+}
+}
+
