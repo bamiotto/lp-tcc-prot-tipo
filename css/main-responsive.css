@@ -1,17 +1,16 @@
-/*menu hamburguer*/
+
 @media only screen and (max-width: 768px) {
 *,
 *:before,
 *:after {
  box-sizing: border-box;
-    overflow-x: hidden;
-    margin: 0;
+ overflow-x: hidden;
+  margin: 0;
 width: 100%:;
 }
 
-
 body {
-  overflow-x: hidden;
+  overflow: scroll;
 }
 
 h1{
@@ -185,6 +184,8 @@ height: auto;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  width: 100%;
+  margin: 20px 10px;
 }
 
 .reverse{
@@ -193,7 +194,7 @@ height: auto;
 }
 
 .atributo-item{
-  width: 80%;
+  width: 90%;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -205,6 +206,11 @@ height: auto;
 
 .atributo-item p{
   text-align: center;
+  margin-top: 10%;
+}
+
+#manifesto .atributo-item p{
+  margin-top: 1%;
 }
 
 .destaque{
@@ -228,7 +234,8 @@ height: auto;
 
 #manifesto h2{
   width: 80%;
-  font-size: 64px;
+  font-size: 56px;
+  line-height: 60PX;
 }
 
 .card-row{
@@ -242,10 +249,14 @@ height: auto;
 
 .card-white{
   height: 90px;
-  width: 50%;
+  width: 80%;
   flex-direction: row;
   height: auto;
   padding: 2% 2%;
+}
+.card-white h4{
+  line-height: 80px;
+  overflow: visible;
 }
 
 .main{
@@ -253,10 +264,21 @@ height: auto;
 
 }
 
+#manifesto .main p{
+  justify-content: center;
+    margin: 24px 20px;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .main p{
     justify-content: center;
     margin: 24px 20px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 30px;
     letter-spacing: 0.5px;
     text-align: center;

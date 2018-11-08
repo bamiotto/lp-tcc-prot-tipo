@@ -1,3 +1,4 @@
+
 *{
 	color: #ffffff;
 }
@@ -6,8 +7,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #1a237e;
-	overflow-wrap: wrap;
-}
+	}
 
 #blog{
 	background-color: #fff;
@@ -302,7 +302,7 @@ ul#top-menu .active{
 	align-items: center;
 	justify-content: center;
 	height: auto;
-	max-height: 1000px;
+
 }
 
 .destaque-item{
