@@ -152,21 +152,41 @@ height: auto;
   height: auto;
   width: 100%;
   overflow: hidden;
-  max-height: 1200px;
+  /* max-height: 800px; */
 }
 
 .destaque-item{
  width: 80%;
+ height: 100%;
 }
 
-.destaque-right{
-  max-width: 20%;
-}
 
 .thumb{
   /* width: -webkit-fill-available; */
   height: -webkit-fill-available;
   max-width: 100%;
+}
+
+#manifesto h2{
+  width: 80%;
+  font-size: 64px;
+}
+
+.card-row{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-white{
+  height: 90px;
+  width: 50%;
+  flex-direction: row;
+  height: auto;
+  padding: 2% 2%;
 }
 }
 
