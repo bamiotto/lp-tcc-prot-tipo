@@ -946,3 +946,8 @@ background-image: url(../img/atributo-b.png);
 	background-size: cover;
 	background-position: bottom;
 }
+
+.capital{
+	background-image: url(../img/C.png);
+	background-size: cover;
+}
