@@ -12,6 +12,7 @@ width: 100%:;
 
 body {
   overflow: scroll;
+  width: 100%;
 }
 
 h1{
@@ -310,6 +311,10 @@ height: auto;
 
 @media only screen and (min-width: 768px) {
 
+body{
+  width: 100%;
+}
+
 #top-menu{
 	height:60px;
 	width:100%;
@@ -376,6 +381,7 @@ width: 100%:;
 
 body {
   overflow: scroll;
+  width: 100%;
 }
 
 h1{
