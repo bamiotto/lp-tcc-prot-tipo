@@ -88,6 +88,7 @@ p{
 	margin-top: 2%;
 	text-decoration: none;
 	letter-spacing: 1px;
+	text-align: center;
 }
 
 #top-menu{
@@ -336,8 +337,6 @@ ul#top-menu .active{
 
 }
 
-
-
 .banner h2{
 	font-size: 48px;
 	margin: 2% 2%;
@@ -543,8 +542,9 @@ ul#top-menu .active{
 
 #manifesto p{
 	margin:0;
-	font-size: 16px;
+	font-size: 1em;
 	letter-spacing: 2px;
+	overflow: visible;
 } 
 
 .card-row{

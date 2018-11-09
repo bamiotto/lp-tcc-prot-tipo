@@ -14,103 +14,65 @@ body {
 }
 
 h1{
-  font-size: 48px;
+  font-size: 3em;
+  overflow: visible;
 }
 
 h3{
-  font-size: 32px;
+  font-size: 2em;
   line-height: 40px;
+   overflow: visible;
 }
 
 h2{
-  font-size: 32px;
+  font-size: 2em;
     line-height: 52px;
     margin: 10% 10% 0 10%;
+     overflow: visible;
 }
 
+#topmenu{
+  height: 60px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-label .menu {
-  position: absolute;
-  right: -100px;
-  top: -100px;
-  z-index: 100;
-  width: 200px;
-  height: 200px;
-  background: #1a237e;
-  border-radius: 50% 50% 50% 50%;
-  transition: .5s ease-in-out;
-  box-shadow: 0 0 0 0 #1a237e, 0 0 0 0 #1a237e;
-  cursor: pointer;
+#top-menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: absolute;
+    background-color: transparent;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
 }
-label .hamburger {
-  position: absolute;
-  top: 135px;
-  left: 50px;
-  width: 30px;
-  height: 2px;
-  background: #fff;
-  display: block;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transition: .5s ease-in-out;
+
+#top-menu ul li{
+    width: 100%;
+    padding: 2% 5%;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-label .hamburger:after, label .hamburger:before {
-  transition: .5s ease-in-out;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-}
-label .hamburger:before {
-  top: -10px;
-}
-label .hamburger:after {
-  bottom: -10px;
-}
-label input {
-  display: none;
-}
-label input:checked + .menu {
-  box-shadow: 0 0 0 100vw #1a237e, 0 0 0 100vh #1a237e;
-  border-radius: 0;
-}
-label input:checked + .menu .hamburger {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-label input:checked + .menu .hamburger:after {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  bottom: 0;
-}
-label input:checked + .menu .hamburger:before {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  top: 0;
-}
-label input:checked + .menu + ul {
-  opacity: 1;
-}
-label ul {
-  z-index: 200;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: .25s 0s ease-in-out;
-}
-label a {
- margin-bottom: 1em;
-  font-size: 5em;
-  text-align: center;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  overflow: none;
+
+#top-menu ul li a{
+
+font-size: 0.8em;
+    overflow: visible;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .grid-chapter{
@@ -221,10 +183,19 @@ height: auto;
 }
 
 .destaque-item{
- width: 80%;
- height: 100%;
+ width: 100%;
+ height: auto;
 }
 
+
+.destaque-item h3{
+ margin:20% 0;
+}
+
+.destaque-right{
+  margin-top: 0;
+  padding-top: 50%;
+}
 
 .thumb{
   /* width: -webkit-fill-available; */
