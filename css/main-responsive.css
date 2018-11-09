@@ -54,6 +54,7 @@ p{
       align-items: center;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
 #top-menu ul{
@@ -205,8 +206,9 @@ height: auto;
 #manifesto .atributo-item p{
   margin-top: 1%;
 }
-
 .destaque{
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: 100%;
   overflow: hidden;
@@ -214,7 +216,7 @@ height: auto;
 }
 
 .destaque-item{
- width: 100%;
+ width: 90%;
  height: auto;
 }
 
@@ -225,8 +227,10 @@ height: auto;
 }
 
 .destaque-right{
-  margin-top: 0;
-  padding-top: 50%;
+  position: relative;
+  /* z-index: -99999; */
+  margin-top: 3%;
+  width: 100%;
 }
 
 .thumb{
