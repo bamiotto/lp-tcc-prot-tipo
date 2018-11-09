@@ -67,7 +67,7 @@ h2{
 
 #top-menu ul li a{
 
-font-size: 0.8em;
+    font-size: 0.8em;
     overflow: visible;
     text-decoration: none;
     align-content: center;
@@ -84,7 +84,7 @@ font-size: 0.8em;
   align-items: center;
 }
 
-.grid-chapter li{
+.grid-chapter ul li{
   width: 100%;
 }
 
@@ -205,7 +205,7 @@ height: auto;
 
 #manifesto h2{
   width: 80%;
-  font-size: 56px;
+  font-size: 3em;
   line-height: 60PX;
 }
 
