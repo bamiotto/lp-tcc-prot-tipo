@@ -232,6 +232,12 @@ height: auto;
   /* z-index: -99999; */
   margin-top: 3%;
   width: 100%;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 .thumb{
@@ -263,10 +269,13 @@ height: auto;
   flex-direction: row;
   height: auto;
   padding: 2% 2%;
+    justify-content: left;
+
 }
 .card-white h4{
   line-height: 80px;
   overflow: visible;
+
 }
 
 .main{
@@ -539,7 +548,7 @@ height: auto;
   justify-content: center;
   align-content: center;
   width: 100%;
-  margin: 2% 1%;
+  margin: 2% 1%; 
 }
 
 .reverse{
@@ -590,10 +599,16 @@ height: auto;
 }
 
 .destaque-right{
-  position: relative;
+  position: inherit;
   /* z-index: -99999; */
   margin-top: 3%;
   width: 100%;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 .thumb{
@@ -625,6 +640,7 @@ height: auto;
   flex-direction: row;
   height: auto;
   padding: 2% 2%;
+  justify-content: left;
 }
 .card-white h4{
   line-height: 3em;

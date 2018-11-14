@@ -16,14 +16,14 @@ body{
 
 h1{
 	font-family: 'Poppins', sans-serif;
-	font-size: 64px;
+	font-size: 5em;
 	text-align: center;
 	background-color: transparent;
 }
 
 h2{
 	font-family: 'Poppins', sans-serif;
-	font-size: 48px;
+	font-size: 3em;
 	text-align: center;
 	background-color: transparent;
 	margin: 10% 10%;
@@ -33,7 +33,7 @@ h2{
 
 h3{
 	font-family: 'Poppins', sans-serif;
-	font-size: 36px;
+	font-size: 2em;
 	line-height: 48px;
 	letter-spacing: 1px;
 	text-align: left;
@@ -41,7 +41,7 @@ h3{
 }
 h4{
 	font-family: 'Poppins', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 36px;
 	letter-spacing: 1px;
 	text-align: left;
@@ -50,7 +50,7 @@ h4{
 
 p{
 	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	letter-spacing: 0.5px;
 	line-height: 24px;
 	background-color: transparent;
@@ -155,7 +155,7 @@ ul#top-menu .active{
 
 .content-blue{
 	height: auto;
-	min-height: 640px;
+	min-height: 600px;
 	background-color: #1a237e;
 	display: flex;;
 	flex-direction:column;
@@ -165,7 +165,7 @@ ul#top-menu .active{
 
 .title-orange{
 	height: auto;
-	min-height: 640px;
+	min-height: 610px;
 	background-color: #ff8a65;
 	display: flex;;
 	flex-direction:column;
@@ -223,6 +223,7 @@ ul#top-menu .active{
 	background-position: bottom left;
 	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
+
 }
 
 .atributo-b{
@@ -288,7 +289,7 @@ ul#top-menu .active{
 }
 
 .diferenciais-item h6{
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 32px;
 	text-align: center;
 }
@@ -339,7 +340,7 @@ ul#top-menu .active{
 }
 
 .banner h2{
-	font-size: 48px;
+	font-size: 3em;
 	margin: 2% 2%;
 	padding: 0;
 	text-align: center;
@@ -359,7 +360,7 @@ ul#top-menu .active{
 .banner p{
 	text-align: center;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 1em;
     margin-top: 2px;
 }
 
@@ -407,6 +408,8 @@ ul#top-menu .active{
 	flex-direction:row;
 	justify-content: left;
 	align-items: left;
+	transition-timing-function: : ease-in;
+  transition: all 2s;
 }
 
 .thumb{
@@ -464,7 +467,7 @@ ul#top-menu .active{
 .main p{
 	justify-content: center;
 	margin: 24px 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 30px;
 	letter-spacing: 0.5px;
 	text-align: center;
@@ -572,7 +575,7 @@ ul#top-menu .active{
 
 
 .card-white h4{
-	font-size: 64px;
+	font-size: 5.5em;
 	margin: 1% 5% 1% 1%;
 }
 
@@ -609,7 +612,7 @@ ul#top-menu .active{
 	font-weight: 400;
 	color: #1a237e;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 	letter-spacing: 2px;
 	vertical-align: top;
@@ -618,7 +621,7 @@ ul#top-menu .active{
 }
 
 .article .title h1{
-	font-size: 72px;
+	font-size: 6em;
 	color: #1a237e;
 	margin: 0 0;
 	text-align: left;
@@ -636,7 +639,7 @@ ul#top-menu .active{
 .img-caption h6{
 	margin: 0;
 	color: #1a237e;
-	font-size: 12px;
+	font-size: 0.8em;
 	line-height: 20px;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -657,14 +660,14 @@ ul#top-menu .active{
 
 
 .caption a{
-	font-size: 12px;
+	font-size: 0.8em;
 	color: #1a237e;
 	font-weight: 400;
 	letter-spacing: 1.5px;
 }
 
 .caption p{
-	font-size: 12px;
+	font-size: 0.8em;
 	color: #1a237e;
 	font-weight: 400;
 	letter-spacing: 1.5px;
@@ -680,32 +683,34 @@ ul#top-menu .active{
 
 .article-body p{
 	color: #1a237e;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 	font-weight: 400;
 	letter-spacing: 1px;
 }
 .article-body p em{
 	color: #1a237e;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 	font-style: oblique;
 }
 
 .article-body h4{
 margin: 5% 5%;
+font-size: 1.1em;
+
 }
 
 .article-body h4 em{
 	color: #1a237e;
-	font-size: 20px;
+	font-size: 1.2em;
 	line-height: 30px;
 	font-style: oblique;
 }
 
 .article-body h3{
 	color: #1a237e;
-	font-size: 24px;
+	font-size: 2em;
 	font-weight: bolder;
 	line-height: 32px;
 	text-decoration: underline;
@@ -784,9 +789,6 @@ margin-top: 56px;
 
 /*grid*/
 
-#grid{
-
-}
 
 .map{
 	margin: 5%;
@@ -804,6 +806,37 @@ margin-top: 56px;
 }
 
 .map p{
+	font-weight: 400;
+	color: #1a237e;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	vertical-align: top;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.map-article{
+	margin: 0;
+	margin-bottom: 2ß%;
+}
+
+.map-article a{
+	font-weight: 400;
+	color: #1a237e;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	vertical-align: top;
+	margin-top: 0;
+	margin-bottom: 10%;
+	text-decoration: none;
+}
+.map-article a:hover{
+	text-decoration: underline;
+}
+
+.map-article p{
 	font-weight: 400;
 	color: #1a237e;
 	text-transform: uppercase;
@@ -869,7 +902,7 @@ margin-top: 56px;
 	align-items: center;
 	width: 80%;
 	overflow: hidden;
-	padding: 5% 1%;
+	/*padding: 5% 1%;*/
 }
 
 .diamond{
@@ -885,7 +918,7 @@ margin-top: 56px;
 
 .content-white{
 	height: auto;
-	min-height: 640px;
+	min-height: 600px;
 	background-color: #fff;
 	display: flex;
 	flex-direction:column;
@@ -962,8 +995,9 @@ margin-top: 56px;
 /*imagens do banner*/
 
 .introducao{
-background-image: url(../img/tiles.png);
+background-image: url(../img/introducao-pug.png);
 	background-size: cover;
+	background-position: bottom;
 }
 
 .humana{
@@ -1009,7 +1043,7 @@ background-image: url(../img/montagem.png);
     background-size: cover;
     background-position: top;
     height: auto;
-    min-height: 640px;
+    min-height: 560px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -1043,4 +1077,8 @@ background-image: url(../img/Artboard-6.png);
 	background-image: url(../img/7.png);
 	background-size: cover;
 	background-position: bottom;
+}
+
+.metodo-modelo{
+	background-image: url(../img/6.png);
 }
