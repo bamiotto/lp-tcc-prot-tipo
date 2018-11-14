@@ -155,7 +155,7 @@ ul#top-menu .active{
 
 .content-blue{
 	height: auto;
-	min-height: 610px;
+	min-height: 600px;
 	background-color: #1a237e;
 	display: flex;;
 	flex-direction:column;
@@ -918,7 +918,7 @@ margin-top: 56px;
 
 .content-white{
 	height: auto;
-	min-height: 640px;
+	min-height: 600px;
 	background-color: #fff;
 	display: flex;
 	flex-direction:column;
