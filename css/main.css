@@ -243,6 +243,7 @@ ul#top-menu .active{
 	max-height: 600px;
 }
 
+
 .atributo-a{
 	background-image: url(../img/predio.png);
 	background-size: contain;
@@ -327,13 +328,13 @@ ul#top-menu .active{
 	border: #fff solid 3px;
 }
 .destaque{
-	background-color: #ff8a65;
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	height: auto;
-
+	background-image: url('../img/novo-index/manifesto.png');
+	background-size: cover;
 }
 
 .destaque-item{
@@ -1024,6 +1025,11 @@ margin-top: 56px;
 	width: 100%;
 }
 
+.spacer-width{
+	height: 850px;
+	width: 60%;
+}
+
 /*imagens do banner*/
 
 .introducao{
@@ -1113,4 +1119,8 @@ background-image: url(../img/Artboard-6.png);
 
 .metodo-modelo{
 	background-image: url(../img/6.png);
+}
+.crowd{
+	background-image: url(../img/texture-2.png);
+	background-size: cover;
 }
