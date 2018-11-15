@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px){
-  #top-menu-mobile{
+  .top-menu-mobile{
     visibility: hidden;
+    z-index: -999;
   }
 }
 
@@ -85,8 +86,8 @@ p{
 }
 
 .top-menu-mobile{
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   margin-top: 0;
   margin-right: 0;
   margin-left: auto;
@@ -104,9 +105,22 @@ p{
   height: 100%;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+
+#nav ul{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav ul li a{
+  font-size: 2em;
+  text-decoration: none;
 }
 
 
