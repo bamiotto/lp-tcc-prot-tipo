@@ -223,6 +223,7 @@ ul#top-menu .active{
 	background-position: top;
 	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
+	transition: all 1s;
 }
 .bg-2{
 	background-image: url(../img/novo-index/BG-2.png);
@@ -230,6 +231,7 @@ ul#top-menu .active{
 	background-position: top;
 	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
+	transition: all 1s;
 }
 
 .bg-3{
@@ -241,6 +243,7 @@ ul#top-menu .active{
 	margin-top: 0;
 	padding: 1%;
 	max-height: 600px;
+	transition: all 1s;
 }
 
 
