@@ -95,13 +95,14 @@ p{
 #top-menu{
 	height:60px;
 	width:100%;
-	position: absolute;
+	position: sticky;
 	background-color: transparent;
 	margin-top: 10px;
-	display: flex;;
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 ul{

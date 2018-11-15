@@ -1,8 +1,4 @@
-@media only screen and (min-width: 768px){
-  #top-menu-mobile{
-    visibility: hidden;
-  }
-}
+
 
 @media only screen and (max-width: 768px) {
 *,
@@ -28,7 +24,6 @@ width: 100%:;
 body {
   overflow: scroll;
   width: 100%;
-  overflow-x: hidden;
 }
 
 h1{
@@ -84,36 +79,50 @@ p{
   /* max-height: 800px; */
 }
 
-.top-menu-mobile{
-  width: 80px;
-  height: 80px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  background-color: #1a237e;
-  transition: all 3s;
+#topmenu{
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    background-color: transparent;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+#top-menu ul{
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
 }
 
-#nav{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#top-menu ul li{
+    width: auto;
+    margin: 1%;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
 }
 
-
-#top-menu{
-   visibility: hidden;
+#top-menu ul li a{
+    font-size: 0.8em;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: normal;
+    width: auto;
 }
-
 
 .grid-chapter{
   margin-top: 10%;
