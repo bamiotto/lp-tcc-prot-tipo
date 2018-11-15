@@ -217,6 +217,33 @@ ul#top-menu .active{
 	background-repeat: no-repeat;
 }
 
+.bg-1{
+	background-image: url(../img/novo-index/bg-1.png);
+	background-size: cover;
+	background-position: top;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+}
+.bg-2{
+	background-image: url(../img/novo-index/BG-2.png);
+	background-size: cover;
+	background-position: top;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+}
+
+.bg-3{
+	background-image: url(../img/novo-index/bg-3.png);
+	background-size: cover;
+	background-position: top;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+	margin-top: 0;
+	padding: 1%;
+	max-height: 600px;
+}
+
+
 .atributo-a{
 	background-image: url(../img/predio.png);
 	background-size: contain;
@@ -297,15 +324,17 @@ ul#top-menu .active{
 .diferenciais-item img{
 	max-height: 50%;
 	width: auto;
+	box-shadow: 1px 1px 3px #00000082;
+	border: #fff solid 3px;
 }
 .destaque{
-	background-color: #ff8a65;
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	height: auto;
-
+	background-image: url('../img/novo-index/manifesto.png');
+	background-size: cover;
 }
 
 .destaque-item{
@@ -367,13 +396,13 @@ ul#top-menu .active{
 /*atributos*/
 
 .atributo{
-	height: 50%;
+	height: 100%;
 	display: flex;
 	flex-direction:row;
 	justify-content: center;
 	align-items: center;
-	margin: 40px 40px;
-	padding: 40px 40px;
+	margin: 10px 40px;
+	/* padding: 40px 40px; */
 }
 
 .atributo-item{
@@ -394,15 +423,19 @@ ul#top-menu .active{
 }
 
 .content-orange .atributo .atributo-item>p{
-	color: #fff;
+	color: #1a237e;
+}
+
+.content-orange .atributo .atributo-item>p{
+	color: #1a237e;
 }
 
 .content-orange .atributo .atributo-item>h3{
-	color: #fff;
+	color: #1a237e;
 }
 
 .atributo img{
-	max-height: 560px;
+	max-height: 800px;
 	margin: 32px 32px;
 	display: flex;
 	flex-direction:row;
@@ -992,6 +1025,11 @@ margin-top: 56px;
 	width: 100%;
 }
 
+.spacer-width{
+	height: 850px;
+	width: 60%;
+}
+
 /*imagens do banner*/
 
 .introducao{
@@ -1081,4 +1119,8 @@ background-image: url(../img/Artboard-6.png);
 
 .metodo-modelo{
 	background-image: url(../img/6.png);
+}
+.crowd{
+	background-image: url(../img/texture-2.png);
+	background-size: cover;
 }
