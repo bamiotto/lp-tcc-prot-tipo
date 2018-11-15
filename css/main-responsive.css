@@ -10,6 +10,17 @@
 width: 100%:;
 }
 
+
+.bg-3{
+  background-image: none;
+  background-color: #fff;
+  background-size: contain;
+  height:auto;
+  max-height: 100%;
+  padding: 10% 0;
+  /* margin-bottom: 10%; */
+}
+
 body {
   overflow: scroll;
   width: 100%;
@@ -52,6 +63,10 @@ p{
   height: 50px;
   width: 100%;
   
+}
+.diferenciais{
+  display: flex;
+  flex-direction: column;
 }
 
 .destaque{
@@ -219,15 +234,18 @@ height: auto;
 
 .atributo img{
   height: auto;
-max-width: 90%;
-margin: 2%;
+  max-width: 90%;
+  /* margin: 2%; */
 }
 
 .bg-3{
+  background-color: #fff;
+  background-image: none;
   height:auto;
   max-height: 100%;
   margin-bottom: 10%;
 }
+
 .atributo-item img{
 height: auto;
 max-width: 90%;
@@ -453,9 +471,9 @@ h3{
 }
 
 h2{
-  font-size: 2em;
-    line-height: 52px;
-    margin: 10% 10% 0 10%;
+  font-size: 1.6em;
+    line-height: 1.7em;
+    margin: 10% 10% 2% 10%;
     overflow: visible;
     word-break: break-word;
 
@@ -467,6 +485,15 @@ p{
 
 }
 
+.bg-3{
+  background-image: none;
+  background-color: #fff;
+  background-size: contain;
+  height:auto;
+  max-height: 100%;
+  padding: 10% 0;
+  /* margin-bottom: 10%; */
+}
 
 #topmenu{
   height: 30px;
