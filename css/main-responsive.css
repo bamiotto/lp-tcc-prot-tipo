@@ -44,6 +44,26 @@ p{
 
 }
 
+#principios{
+  height: auto;
+}
+
+.spacer-width{
+  height: 50px;
+  width: 100%;
+  
+}
+
+.destaque{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  overflow: visible;
+  min-height: 1000px;
+  /* max-height: 800px; */
+}
+
 #topmenu{
   height: 60px;
     width: 100%;
@@ -242,7 +262,7 @@ max-width: 90%;
 
 
 .destaque-item h3{
- margin:20% 0;
+ margin:10% 0;
   word-break: break-word;
 }
 
@@ -406,6 +426,11 @@ ul li a:active{
   margin: 0;
 width: 100%:;
 }
+
+#principios{
+  height: auto;
+}
+
 
 body {
   overflow: scroll;
@@ -595,7 +620,11 @@ height: auto;
   margin-top: 1%;
 }
 
+.spacer-width{
+  height: 50px;
+  width: 100%;
 
+}
 
 .destaque{
   display: flex;
