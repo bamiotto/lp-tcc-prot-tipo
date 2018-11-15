@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /.DS_Store
+Disallow: /.git
+Disallow: /cgi-bin
+
+Sitemap: http://incasa.barbaramiotto.com.br/sitemap.xml
