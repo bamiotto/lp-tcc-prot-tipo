@@ -260,7 +260,7 @@ ul#top-menu .active{
 }
 
 .bg-3{
-	background-image: url(../img/novo-index/bg-3.png);
+	background-image:url(../img/novo-index/bg-3.png);
 	background-size: cover;
 	background-position: top;
 	/* background-attachment: fixed; */
@@ -946,7 +946,7 @@ margin-top: 56px;
 }
 
 .nomargin{
-	margin: 0;
+	margin: 1%;
 }
 
 .center{
