@@ -2,6 +2,7 @@
   .top-menu-mobile{
     visibility: hidden;
     z-index: -999;
+    position: absolute;
   }
 }
 
@@ -128,6 +129,8 @@ p{
 
 #top-menu{
    visibility: hidden;
+       position: absolute;
+
 }
 
 
@@ -502,12 +505,13 @@ p{
     width: 100%;
     position: absolute;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 0;
     display: flex;
     flex-direction: row;
       align-items: center;
     text-align: center;
     justify-content: center;
+
   }
 
 #top-menu ul{
@@ -814,6 +818,9 @@ height: auto;
 
 #top-menu{
    visibility: hidden;
+       position: absolute;
+       margin-top: 0;
+
 }
 
 }

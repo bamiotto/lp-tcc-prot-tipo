@@ -786,6 +786,9 @@ margin-top: 56px;
 	margin-left: 24px;
 	font-weight: 300;
 }
+.references a{
+	color: #1a237e;
+}
 
 .link{
 	color: #ff8a65;
@@ -1061,7 +1064,7 @@ margin-top: 56px;
 /*imagens do banner*/
 
 .introducao{
-background-image: url(../img/introducao-pug.png);
+background-image: url(../img/Artboard-6.png);
 	background-size: cover;
 	background-position: bottom;
 }
@@ -1084,12 +1087,12 @@ background-image: url(../img/atributo-b.png);
 }
 
 .contemporaneos{
-	background-image: url(../img/photo-1511352015382-902404d75843.jpeg);
+	background-image: url(../img/texture-2.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .inovacao{
-	background-image: url(../img/cadeira.png);
+	background-image: url(../img/crowd-blueprint.png);
 	background-size: cover;
 }
 
@@ -1147,6 +1150,7 @@ background-image: url(../img/Artboard-6.png);
 
 .metodo-modelo{
 	background-image: url(../img/6.png);
+	background-position: bottom;
 }
 .crowd{
 	background-image: url(../img/texture-2.png);
